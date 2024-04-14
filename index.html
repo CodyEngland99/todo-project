@@ -1,111 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap"
-      rel="stylesheet"
-    />
-    <title>The Works - Todo List</title>
-  </head>
-  <body id="wrapper">
-    <div id="main-side-wrapper">
-      <aside>
-        <div id="title-wrap">
-          <h1 class="title main-title">
-            <span class="title-offset">The</span>Works
-          </h1>
-        </div>
-        <div id="nav-bar">
-          <div id="filters-container">
-            <div id="filter-title">
-              <h2 class="header filter-header">Filters</h2>
-            </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap"
+			rel="stylesheet"
+		/>
+		<title>The Works - Todo List</title>
+	</head>
+	<body id="wrapper">
+		<div id="main-side-wrapper">
+			<aside>
+				<div id="title-wrap">
+					<h1 class="title main-title">
+						<span class="title-offset">The</span>Works
+					</h1>
+				</div>
+				<div id="nav-bar">
+					<div id="filters-container">
+						<div id="filter-title">
+							<h2 class="header filter-header">Filters</h2>
+						</div>
 
-            <ul class="filters">
-              <li class="selected-items item">
-                <img class="item-pic" src="img/all.png" alt="all filter" />
-                <a class="nav-item">All</a>
-              </li>
-              <li class="item task-starred">
-                <img
-                  class="item-pic"
-                  src="img/star-filled.png"
-                  alt="only stars"
-                />
-                <a class="nav-item">Starred</a>
-              </li>
-              <li class="item">
-                <img class="item-pic" src="img/today.png" alt="today filter" />
-                <a class="nav-item">Today</a>
-              </li>
-              <li class="item">
-                <img class="item-pic" src="img/week.png" alt="week filter" />
-                <a class="nav-item">Week</a>
-              </li>
-            </ul>
-          </div>
+						<ul class="filters">
+							<li class="selected-items item all">
+								<img class="item-pic" src="img/all.png" alt="all filter" />
+								<a class="nav-item">All</a>
+							</li>
+							<li class="item task-starred star">
+								<img
+									class="item-pic"
+									src="img/star-filled.png"
+									alt="only stars"
+								/>
+								<a class="nav-item star">Starred</a>
+							</li>
+							<li class="item today">
+								<img class="item-pic" src="img/today.png" alt="today filter" />
+								<a class="nav-item">Today</a>
+							</li>
+							<li class="item week">
+								<img class="item-pic" src="img/week.png" alt="week filter" />
+								<a class="nav-item">Week</a>
+							</li>
+						</ul>
+					</div>
 
-          <div id="projects-container">
-            <div id="project-title">
-              <h2 class="header project-header">Projects</h2>
-              <a class="plus-project">+</a>
-            </div>
-            <ul id="filters">
-              <!-- // use class selected-items for the project they have selected -->
-              <li class="item">
-                <img class="item-pic" src="img/project.png" alt="project" />
-                <a class="nav-item">Project 1</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </aside>
+					<div id="projects-container">
+						<div id="project-title">
+							<h2 class="header project-header">Projects</h2>
+							<a class="plus-project">+</a>
+						</div>
+						<ul id="filters">
+							<!-- // use class selected-items for the project they have selected -->
+							<li class="item">
+								<img class="item-pic" src="img/project.png" alt="project" />
+								<a class="nav-item">Project 1</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
 
-      <main id="main-content-container">
-        <div id="task-header">
-          <h2 class="header">Tasks</h2>
-          <div id="delete-task-btn">
-            <a class="delete-task btn">Delete All</a>
-          </div>
-        </div>
-        <div id="btn-container">
-          <div id="add-task-btn">
-            <a class="add-task btn" id="add-task">Add Task</a>
-          </div>
-          <div id="input-container">
-            <div class="custom_input">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="svg-icon bi-search"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                ></path>
-              </svg>
+			<main id="main-content-container">
+				<div id="task-header">
+					<h2 class="header">Tasks</h2>
+					<div id="delete-task-btn">
+						<a class="delete-task btn">Delete All</a>
+					</div>
+				</div>
+				<div id="btn-container">
+					<div id="add-task-btn">
+						<a class="add-task btn" id="add-task">Add Task</a>
+					</div>
+					<div id="input-container">
+						<div class="custom_input">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="svg-icon bi-search"
+								viewBox="0 0 16 16"
+							>
+								<path
+									d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+								></path>
+							</svg>
 
-              <input id="input" type="text" placeholder="Enter Task Here" />
-            </div>
-          </div>
-          <div id="date-container">
-            <input
-              type="date"
-              id="date-picker"
-              autocomplete="off"
-              class="task-date"
-            />
-          </div>
-        </div>
-        <div id="task-container">
-          <div id="task-inventory-container"></div>
-        </div>
-      </main>
-    </div>
-    <script src="app.js"></script>
-  </body>
+							<input id="input" type="text" placeholder="Enter Task Here" />
+						</div>
+					</div>
+					<div id="date-container">
+						<input
+							type="date"
+							id="date-picker"
+							autocomplete="off"
+							class="task-date"
+						/>
+					</div>
+				</div>
+				<div id="task-container">
+					<div id="task-inventory-container"></div>
+				</div>
+			</main>
+		</div>
+		<script src="app.js"></script>
+	</body>
 </html>
